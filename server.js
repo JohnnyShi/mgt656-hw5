@@ -6,10 +6,9 @@ app.get('/', function(request, response){
 });
 
 app.get('/nickname', function(request, response){
-    response.send('eager lemur');
+    response.send('eager-lemur');
 });
 
 app.listen(
-    process.env.PORT || 4000, 
-    process.env.IP || 'localhost'
+    process.env.PORT || 4000
 );
