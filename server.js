@@ -6,7 +6,7 @@ app.get('/', function(request, response){
 });
 
 app.get('/nickname', function(request, response){
-    response.send('eager-lemur');
+    response.send('eager lemur');
 });
 
 app.listen(
